@@ -1,0 +1,52 @@
+
+/* by default */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* for body */
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10vh;
+    background-color: blue;
+    
+}
+/* for container */
+.container{
+    background-color: bisque;
+    margin: 10px;
+    color: red;
+    padding: 15px;
+}
+/* for class dp_menu */
+.dp_menu {
+    background-color: seashell;
+    align-items: center;
+    margin: 10px;
+    color: brown;
+    padding: 50px;
+    font-size: 25px;
+    border-bottom: 0.5px solid black;
+}
+/* for class dp_menu p */
+.dp_menu p{cursor: pointer;}
+/* for class dp_menu i */
+.dp_menu i{
+    margin-left:100px;  
+}
+/* for class box */
+.box{
+    background-color: bisque;
+    margin: 10px;
+    color: rgb(3, 93, 3);
+    padding: 20px;
+    display: flex;
+}
+/* for  li  tag*/
+li{
+    list-style:None;
+}
+
